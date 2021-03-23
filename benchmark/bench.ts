@@ -1,9 +1,10 @@
-import b from 'benny'
 import path from 'path'
+
+import b from 'benny'
 
 import { parse } from '../index'
 
-const csvPath = path.join(__dirname, '../__test__/fixtures/basic.csv') 
+const csvPath = path.join(__dirname, '../__test__/fixtures/basic.csv')
 
 async function run() {
   await b.suite(
