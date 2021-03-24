@@ -11,7 +11,7 @@
   "files": [
     "csv-file-reader.darwin-x64.node"
   ],
-  "description": "Template project for writing node package with napi-rs",
+  "description": "CSV file reader written with napi-rs",
   "keywords": [
     "napi-rs",
     "NAPI",
