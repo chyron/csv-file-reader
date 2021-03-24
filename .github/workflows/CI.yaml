@@ -2,7 +2,7 @@ name: CI
 
 env:
   DEBUG: 'napi:*'
-  APP_NAME: 'package-template'
+  APP_NAME: 'csv-file-reader'
 
 on:
   push:

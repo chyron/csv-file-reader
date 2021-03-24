@@ -8,4 +8,4 @@ const { loadBinding } = require('@node-rs/helper')
  * loadBinding helper will load `package-template.[PLATFORM].node` from `__dirname` first
  * If failed to load addon, it will fallback to load from `@napi-rs/package-template-[PLATFORM]`
  */
-module.exports = loadBinding(__dirname, 'csv-parser', 'csv-parser')
+module.exports = loadBinding(__dirname, 'csv-file-reader', 'csv-file-reader')

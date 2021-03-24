@@ -94,5 +94,5 @@ fn parse(ctx: CallContext) -> Result<JsObject> {
 }
 
 fn strip_bom(string: &str) -> &str {
-  string.trim_start_matches("\u{feff}")
+  string.trim_start_matches('\u{feff}')
 }
