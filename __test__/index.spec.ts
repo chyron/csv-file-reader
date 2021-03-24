@@ -19,5 +19,6 @@ test('csv parse length equals 2 with no header', (t) => {
 
 test('csv more columns than headers', (t) => {
   const parsedCSV = parse(path.join(__dirname, 'fixtures', 'header.csv'))
-  console.log(parsedCSV)
+  t.snapshot(parsedCSV[0], 'first row')
+  t.is(parsedCSV.length, 1, '1 row')
 })
