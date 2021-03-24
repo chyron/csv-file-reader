@@ -1,13 +1,13 @@
-# `@napi-rs/package-template`
+# `csv-file-reader`
 
 ![https://github.com/napi-rs/package-template/actions](https://github.com/napi-rs/package-template/workflows/CI/badge.svg)
 
-> Template project for writing node package with napi-rs.
+> CSV file reader written with napi-rs.
 
-## Install this test package
+## Install this package
 
 ```
-yarn add @napi-rs/package-template
+yarn add csv-file-reader
 ```
 
 ## Support matrix
