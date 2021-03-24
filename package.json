@@ -1,6 +1,6 @@
 {
   "name": "csv-file-reader",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "CSV file reader written with napi-rs",
   "main": "index.js",
   "repository": "git@github.com:chyron/csv-file-reader.git",
