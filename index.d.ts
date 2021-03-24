@@ -1,1 +1,6 @@
-export const parse: (path: string, options?: any) => { [k: string]: any }[]
+interface Options {
+  seperator?: string
+  header?: boolean
+}
+
+export function parse(path: string, options?: Options): { [k: string]: string }[] | string[][]

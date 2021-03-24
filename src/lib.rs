@@ -70,10 +70,13 @@ fn parse(ctx: CallContext) -> Result<JsObject> {
         if row_index == 0 {
           headers.push(String::from(strip_bom(column_value)));
         } else {
-          columns.set_named_property(
-            headers[column_index].as_str(),
-            ctx.env.create_string(column_value)?,
-          )?;
+          // push column only if header is available
+          if column_index < headers.len() {
+            columns.set_named_property(
+              headers[column_index].as_str(),
+              ctx.env.create_string(column_value)?,
+            )?;
+          }
         }
       } else {
         columns.set_element(column_index as u32, ctx.env.create_string(column_value)?)?;
