@@ -1,6 +1,6 @@
 # `csv-file-reader`
 
-![https://github.com/napi-rs/package-template/actions](https://github.com/napi-rs/package-template/workflows/CI/badge.svg)
+![https://github.com/chyron/csv-file-reader/actions](https://github.com/chyron/csv-file-reader/workflows/CI/badge.svg)
 
 > CSV file reader written with napi-rs.
 
