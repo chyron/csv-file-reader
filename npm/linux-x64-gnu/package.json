@@ -1,12 +1,25 @@
 {
   "name": "csv-file-reader-linux-x64-gnu",
-  "version": "1.0.1",
-  "os": ["linux"],
-  "cpu": ["x64"],
+  "version": "1.0.2",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
   "main": "csv-file-reader.linux-x64-gnu.node",
-  "files": ["csv-file-reader.linux-x64-gnu.node"],
+  "files": [
+    "csv-file-reader.linux-x64-gnu.node"
+  ],
   "description": "CSV file reader written with napi-rs",
-  "keywords": ["napi-rs", "NAPI", "N-API", "Rust", "node-addon", "node-addon-api"],
+  "keywords": [
+    "napi-rs",
+    "NAPI",
+    "N-API",
+    "Rust",
+    "node-addon",
+    "node-addon-api"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"

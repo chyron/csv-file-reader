@@ -1,12 +1,25 @@
 {
   "name": "csv-file-reader-android-arm64",
-  "version": "1.0.1",
-  "os": ["android"],
-  "cpu": ["arm64"],
+  "version": "1.0.2",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm64"
+  ],
   "main": "csv-file-reader.android-arm64.node",
-  "files": ["csv-file-reader.android-arm64.node"],
+  "files": [
+    "csv-file-reader.android-arm64.node"
+  ],
   "description": "CSV file reader written with napi-rs",
-  "keywords": ["napi-rs", "NAPI", "N-API", "Rust", "node-addon", "node-addon-api"],
+  "keywords": [
+    "napi-rs",
+    "NAPI",
+    "N-API",
+    "Rust",
+    "node-addon",
+    "node-addon-api"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
