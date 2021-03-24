@@ -12,17 +12,29 @@ yarn add csv-file-reader
 
 ## Support matrix
 
-### Operating Systems
+## Support matrix
 
-| Linux x64/aarch64 | macOS x64/aarch64 | Windows x64 |
-| ----------------- | ----------------- | ----------- |
-| ✓                 | ✓                 | ✓           |
+|                 | node10 | node12 | node14 | node15 |
+| --------------- | ------ | ------ | ------ | ------ |
+| Windows x64     | ✓      | ✓      | ✓      | ✓      |
+| Windows x32     | ✓      | ✓      | ✓      | ✓      |
+| macOS x64/arm64 | ✓      | ✓      | ✓      | ✓      |
+| Linux x64 gnu   | ✓      | ✓      | ✓      | ✓      |
+| Linux x64 musl  | ✓      | ✓      | ✓      | ✓      |
+| Linux arm gnu   | ✓      | ✓      | ✓      | ✓      |
+| Linux arm64 gnu | ✓      | ✓      | ✓      | ✓      |
+| Android arm64   | ✓      | ✓      | ✓      | ✓      |
 
-### NodeJS
+## Usage
 
-| Node10 | Node 12 | Node14 | Node15 |
-| ------ | ------- | ------ | ------ |
-| ✓      | ✓       | ✓      | ✓      |
+```typescript
+interface Options {
+  seperator: string
+  header: boolean
+}
+
+function parse(path: string, options?: Options): { [k: string]: string }[] | string[][]
+```
 
 ## Ability
 
