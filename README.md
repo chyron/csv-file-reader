@@ -12,8 +12,6 @@ yarn add csv-file-reader
 
 ## Support matrix
 
-## Support matrix
-
 |                 | node10 | node12 | node14 | node15 |
 | --------------- | ------ | ------ | ------ | ------ |
 | Windows x64     | ✓      | ✓      | ✓      | ✓      |
@@ -29,8 +27,8 @@ yarn add csv-file-reader
 
 ```typescript
 interface Options {
-  seperator: string
-  header: boolean
+  seperator?: string
+  header?: boolean
 }
 
 function parse(path: string, options?: Options): { [k: string]: string }[] | string[][]
